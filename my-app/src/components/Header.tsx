@@ -114,10 +114,7 @@ const Header: React.FC = () => {
 												<hr className='dropdown-divider' />
 											</li>
 											<li>
-												<a
-													className='nav-item nav-link'
-													href='./page/blog/mitra.html'
-												>
+												<a className='nav-item nav-link' href='/partners'>
 													Партнеры
 												</a>
 											</li>
@@ -224,7 +221,7 @@ const Header: React.FC = () => {
 										Контакт
 									</a>
 									<a href='/' className='btn'>
-										<i className='fa fa-download'></i>Download
+										<i className='fa fa-download'></i>Резюме
 									</a>
 								</div>
 							</div>

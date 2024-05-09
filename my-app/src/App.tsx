@@ -9,6 +9,7 @@ import FAQs from './components/FAQs'
 import Testimonial from './components/Testimonial'
 import CallToAction from './components/CallToAction'
 import Footer from './components/Footer'
+import Partners from './pages/Partners'
 import './App.css'
 
 const App: React.FC = () => {
@@ -31,6 +32,7 @@ const App: React.FC = () => {
 							}
 						/>
 						<Route path='/about' element={<AboutUs />} />
+						<Route path='/partners' element={<Partners />} />
 					</Routes>
 					<CallToAction />
 					<Footer />

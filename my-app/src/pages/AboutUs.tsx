@@ -21,7 +21,7 @@ const AboutUs: React.FC = () => {
 							<h2>О Компании</h2>
 						</div>
 						<div className='col-12'>
-							<a href='/about'>ТОО "Астана Ком"</a>
+							<a href='/'>ТОО "Астана Ком"</a>
 							<a href='/about'>О нас</a>
 						</div>
 					</div>
