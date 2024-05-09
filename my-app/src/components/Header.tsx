@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header: React.FC = () => {
 	return (
@@ -12,9 +13,9 @@ const Header: React.FC = () => {
 						data-aos-duration='1500'
 					>
 						<div className='brand'>
-							<a href='/'>
+							<Link to='/'>
 								<img src='img/logo/astanacomlogo.png' alt='Logo' />
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className='col-lg-10'>
@@ -71,9 +72,9 @@ const Header: React.FC = () => {
 							</div>
 						</div>
 						<div className='navbar navbar-expand-lg bg-light navbar-light'>
-							<a href='/' className='navbar-brand'>
+							<Link to='/' className='navbar-brand'>
 								Меню
-							</a>
+							</Link>
 							<button
 								type='button'
 								className='navbar-toggler'
@@ -88,9 +89,9 @@ const Header: React.FC = () => {
 								id='navbarCollapse'
 							>
 								<div className='navbar-nav ml-auto'>
-									<a href='index.html' className='nav-item nav-link active'>
+									<Link to='/' className='nav-item nav-link active'>
 										Главная
-									</a>
+									</Link>
 									<div className='btn-group drop'>
 										<a
 											href='/'
@@ -105,23 +106,12 @@ const Header: React.FC = () => {
 										</a>
 										<ul className='dropdown-menu'>
 											<li>
-												<a
-													className='nav-item nav-link'
-													href='./page/blog/about.html'
-												>
+												<a className='nav-item nav-link' href='/about'>
 													О нас
 												</a>
 											</li>
 											<li>
 												<hr className='dropdown-divider' />
-											</li>
-											<li>
-												<a
-													className='nav-item nav-link'
-													href='./page/blog/portfolio.html'
-												>
-													Галерея
-												</a>
 											</li>
 											<li>
 												<a

@@ -1,28 +1,42 @@
 import React from 'react'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
+import AboutUs from './pages/AboutUs'
 import Service from './components/Service'
 import FAQs from './components/FAQs'
 import Testimonial from './components/Testimonial'
 import CallToAction from './components/CallToAction'
 import Footer from './components/Footer'
+import './App.css'
 
-function App() {
+const App: React.FC = () => {
 	return (
-		<div className='App'>
-			<div className='wrapper'>
-				<Header />
-				<Hero />
-				<About />
-				<Service />
-				<FAQs />
-				<Testimonial />
-				<CallToAction />
-				<Footer />
+		<Router>
+			<div className='App'>
+				<div className='wrapper'>
+					<Header />
+					<Routes>
+						<Route
+							path='/'
+							element={
+								<>
+									<Hero />
+									<About />
+									<Service />
+									<FAQs />
+									<Testimonial />
+								</>
+							}
+						/>
+						<Route path='/about' element={<AboutUs />} />
+					</Routes>
+					<CallToAction />
+					<Footer />
+				</div>
 			</div>
-		</div>
+		</Router>
 	)
 }
 
