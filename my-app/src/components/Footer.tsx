@@ -122,7 +122,7 @@ const Footer: React.FC = () => {
 							>
 								<strong>ТОО "Астана Ком".</strong>
 							</a>{' '}
-							<strong>Все права защищены.</strong>
+							Все права защищены.
 						</p>
 					</div>
 				</div>
