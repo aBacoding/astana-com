@@ -44,7 +44,7 @@ const CallToAction: React.FC = () => {
 						data-aos-duration='1000'
 						data-aos-delay='500'
 					>
-						<a className='btn' href='./page/blog/pembayaran.html'>
+						<a className='btn' href='/payment'>
 							Сделка
 						</a>
 					</div>

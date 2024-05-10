@@ -119,10 +119,7 @@ const Header: React.FC = () => {
 												</a>
 											</li>
 											<li>
-												<a
-													className='nav-item nav-link'
-													href='./page/blog/pembayaran.html'
-												>
+												<a className='nav-item nav-link' href='/payment'>
 													Оплата и доставка
 												</a>
 											</li>
@@ -221,7 +218,7 @@ const Header: React.FC = () => {
 										Контакт
 									</a>
 									<a href='/' className='btn'>
-										<i className='fa fa-download'></i>Резюме
+										<i className='fa fa-download'></i>Download CV
 									</a>
 								</div>
 							</div>
