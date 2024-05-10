@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
 							</p>
 							<p>
 								<a
-									href='mailto:shophousenew@gmail.com?subject=Hallo%20Admin%20SHOPHOUSE'
+									href='mailto:inbox@a.com.kz?subject=Запрос на оборудование'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
@@ -69,8 +69,8 @@ const Footer: React.FC = () => {
 							<div className='col-md-6'>
 								<div className='footer-link'>
 									<h2>Информация</h2>
-									<a href='./page/blog/mitra.html'>Партнеры</a>
-									<a href='./page/blog/pembayaran.html'>Оплата и доставка</a>
+									<a href='/partners'>Партнеры</a>
+									<a href='/payment'>Оплата и доставка</a>
 									<a href='./page/bantuan/faq.html'>Часто задаваемые вопросы</a>
 									<a href='./page/bantuan/syarat.html'>Условия и положения</a>
 									<a href='./page/bantuan/perjanjian.html'>
