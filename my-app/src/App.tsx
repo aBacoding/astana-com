@@ -17,6 +17,7 @@ import Rosma from './pages/Rosma'
 import Dekraft from './pages/Dekraft'
 import Schneider from './pages/Schneider'
 import FAQPage from './pages/FAQs_detailed'
+import Services from './pages/Services'
 
 const App: React.FC = () => {
 	return (
@@ -45,6 +46,7 @@ const App: React.FC = () => {
 						<Route path='/schneider-electric' element={<Schneider />} />
 						<Route path='/dekraft' element={<Dekraft />} />
 						<Route path='/faqs' element={<FAQPage />} />
+						<Route path='/services' element={<Services />} />
 					</Routes>
 					<CallToAction />
 					<Footer />

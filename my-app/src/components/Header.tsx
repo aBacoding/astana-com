@@ -185,10 +185,7 @@ const Header: React.FC = () => {
 												<hr className='dropdown-divider' />
 											</li>
 											<li>
-												<a
-													className='nav-item nav-link'
-													href='./page/bantuan/services.html'
-												>
+												<a className='nav-item nav-link' href='/services'>
 													Услуги
 												</a>
 											</li>
