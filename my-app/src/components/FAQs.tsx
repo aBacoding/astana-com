@@ -137,7 +137,7 @@ const FAQs: React.FC = () => {
 									data-parent='#accordion'
 								>
 									<div className='card-body'>
-										Безусловно, мы будем рады видеть вас на нашем складе, где вы
+										Безусловно, мы будем рады видеть вас в нашем офисе, где вы
 										сможете ознакомиться с оборудованием и приобрести его
 										самовывозом. Наш склад расположен в самом сердце Астаны по
 										адресу: Бизнес-центр Іскер, Проспект Абая, 13 проспект
@@ -151,7 +151,7 @@ const FAQs: React.FC = () => {
 						</div>
 						<a
 							className='btn'
-							href='./page/bantuan/faq.html'
+							href='/faqs'
 							data-aos='zoom-in'
 							data-aos-easing='ease-in-sine'
 							data-aos-duration='1000'

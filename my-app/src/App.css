@@ -1436,3 +1436,49 @@ a:focus {
 	font-size: 22px;
 	padding: 0 10px;
 }
+
+/*******************************/
+/******* Single Page CSS *******/
+/*******************************/
+.single {
+	position: relative;
+	width: 100%;
+	padding: 45px 0 65px 0;
+}
+
+.single h2.section-title {
+	position: relative;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+	padding-bottom: 15px;
+}
+
+.single h2.section-title::after {
+	position: absolute;
+	content: '';
+	width: 60px;
+	height: 3px;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(to left, #4f84c4, #00539c, #4f84c4);
+	border-radius: 0 100% 100% 0;
+}
+
+.single h3 {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+.single p {
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+.single .table,
+.single .list-group {
+	margin-bottom: 30px;
+}

@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
 									<h2>Информация</h2>
 									<a href='/partners'>Партнеры</a>
 									<a href='/payment'>Оплата и доставка</a>
-									<a href='./page/bantuan/faq.html'>Часто задаваемые вопросы</a>
+									<a href='/faqs'>Часто задаваемые вопросы</a>
 									<a href='./page/bantuan/syarat.html'>Условия и положения</a>
 									<a href='./page/bantuan/perjanjian.html'>
 										Генеральные соглашения

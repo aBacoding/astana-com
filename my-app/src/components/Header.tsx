@@ -177,10 +177,7 @@ const Header: React.FC = () => {
 										</a>
 										<ul className='dropdown-menu'>
 											<li>
-												<a
-													className='nav-item nav-link'
-													href='./page/bantuan/faq.html'
-												>
+												<a className='nav-item nav-link' href='/faqs'>
 													FAQs
 												</a>
 											</li>
