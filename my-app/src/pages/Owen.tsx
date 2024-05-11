@@ -70,7 +70,7 @@ const Owen: React.FC = () => {
 						</div>
 						<div className='col-12'>
 							<a href='/'>ТОО "Астана Ком"</a>
-							<a href='/owen'>ОВЕН</a>
+							<a href='/catalog/owen'>ОВЕН</a>
 						</div>
 					</div>
 				</div>

@@ -14,7 +14,7 @@ const PageHeader: React.FC = () => (
 				</div>
 				<div className='col-12'>
 					<a href='/'>ТОО "Астана Ком"</a>
-					<a href='/services'>Услуги</a>
+					<a href='/help/services'>Услуги</a>
 				</div>
 			</div>
 		</div>

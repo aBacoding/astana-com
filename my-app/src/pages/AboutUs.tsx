@@ -22,7 +22,7 @@ const AboutUs: React.FC = () => {
 						</div>
 						<div className='col-12'>
 							<a href='/'>ТОО "Астана Ком"</a>
-							<a href='/about'>О нас</a>
+							<a href='/company/about'>О нас</a>
 						</div>
 					</div>
 				</div>
@@ -38,7 +38,7 @@ const AboutUs: React.FC = () => {
 							data-aos-duration='1000'
 							data-aos-delay='500'
 						>
-							<img src='img/logo/astanacomlogo.png' alt='Img' />
+							<img src='../../img/logo/astanacomlogo.png' alt='Img' />
 						</div>
 						<div
 							className='col-md-6'

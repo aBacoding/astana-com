@@ -42,7 +42,7 @@ const Schneider: React.FC = () => (
 					</div>
 					<div className='col-12'>
 						<a href='/'>ТОО "Астана Ком"</a>
-						<a href='/schneider-electric'>Schneider Electric</a>
+						<a href='/catalog/schneider-electric'>Schneider Electric</a>
 					</div>
 				</div>
 			</div>

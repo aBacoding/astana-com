@@ -18,6 +18,9 @@ import Dekraft from './pages/Dekraft'
 import Schneider from './pages/Schneider'
 import FAQPage from './pages/FAQs_detailed'
 import Services from './pages/Services'
+import Terms from './pages/Terms'
+import GeneralAgreements from './pages/GeneralAgreement'
+import PrivacyPolicy from './pages/PrivacyPolicy'
 
 const App: React.FC = () => {
 	return (
@@ -38,15 +41,21 @@ const App: React.FC = () => {
 								</>
 							}
 						/>
-						<Route path='/about' element={<AboutUs />} />
-						<Route path='/partners' element={<Partners />} />
-						<Route path='/payment' element={<PaymentDelivery />} />
-						<Route path='/owen' element={<Owen />} />
-						<Route path='/rosma' element={<Rosma />} />
-						<Route path='/schneider-electric' element={<Schneider />} />
-						<Route path='/dekraft' element={<Dekraft />} />
-						<Route path='/faqs' element={<FAQPage />} />
-						<Route path='/services' element={<Services />} />
+						<Route path='/company/about' element={<AboutUs />} />
+						<Route path='/company/partners' element={<Partners />} />
+						<Route path='/company/payment' element={<PaymentDelivery />} />
+						<Route path='/catalog/owen' element={<Owen />} />
+						<Route path='/catalog/rosma' element={<Rosma />} />
+						<Route path='/catalog/schneider-electric' element={<Schneider />} />
+						<Route path='/catalog/dekraft' element={<Dekraft />} />
+						<Route path='/help/faqs' element={<FAQPage />} />
+						<Route path='/help/services' element={<Services />} />
+						<Route path='/help/terms' element={<Terms />} />
+						<Route
+							path='/help/general-agreements'
+							element={<GeneralAgreements />}
+						/>
+						<Route path='/help/privacy-policy' element={<PrivacyPolicy />} />
 					</Routes>
 					<CallToAction />
 					<Footer />

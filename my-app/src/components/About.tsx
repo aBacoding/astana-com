@@ -96,7 +96,7 @@ const About: React.FC = () => {
 						</p>
 						<a
 							className='btn'
-							href='/about'
+							href='/company/about'
 							data-aos='zoom-in'
 							data-aos-easing='ease-in-sine'
 							data-aos-duration='1000'

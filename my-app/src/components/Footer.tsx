@@ -60,25 +60,21 @@ const Footer: React.FC = () => {
 							<div className='col-md-6'>
 								<div className='footer-link'>
 									<h2>Каталог</h2>
-									<a href='/owen'>ОВЕН</a>
-									<a href='/rosma'>РОСМА</a>
-									<a href='/schneider-electric'>Schneider Electric</a>
-									<a href='/dekraft'>DEKraft</a>
+									<a href='/catalog/owen'>ОВЕН</a>
+									<a href='/catalog/rosma'>РОСМА</a>
+									<a href='/catalog/schneider-electric'>Schneider Electric</a>
+									<a href='/catalog/dekraft'>DEKraft</a>
 								</div>
 							</div>
 							<div className='col-md-6'>
 								<div className='footer-link'>
 									<h2>Информация</h2>
-									<a href='/partners'>Партнеры</a>
-									<a href='/payment'>Оплата и доставка</a>
-									<a href='/faqs'>Часто задаваемые вопросы</a>
-									<a href='./page/bantuan/syarat.html'>Условия и положения</a>
-									<a href='./page/bantuan/perjanjian.html'>
-										Генеральные соглашения
-									</a>
-									<a href='./page/bantuan/privasi.html'>
-										Политика конфиденциальности
-									</a>
+									<a href='/company/partners'>Партнеры</a>
+									<a href='/company/payment'>Оплата и доставка</a>
+									<a href='/help/faqs'>Часто задаваемые вопросы</a>
+									<a href='/help/terms'>Условия и положения</a>
+									<a href='/help/general-agreements'>Генеральные соглашения</a>
+									<a href='/help/privacy-policy'>Политика конфиденциальности</a>
 								</div>
 							</div>
 						</div>
@@ -87,7 +83,7 @@ const Footer: React.FC = () => {
 			</div>
 			<div className='container copyright'>
 				<div className='row'>
-					<div className='col-md-6 hubungi'>
+					<div className='col-md-6 contacts'>
 						<p>
 							<a
 								href='https://api.whatsapp.com/send?phone=+77077790150&text=Добрый%20День!%20Запрос%20на%20оборудование%20для%20автоматизации.'

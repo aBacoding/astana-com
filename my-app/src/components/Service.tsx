@@ -88,7 +88,7 @@ const Service: React.FC = () => {
 						data-aos-easing='ease-in-sine'
 						data-aos-duration='1500'
 						className='btn btn-primary'
-						href='/services'
+						href='/help/services'
 					>
 						Узнать больше
 					</a>

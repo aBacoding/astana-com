@@ -50,7 +50,7 @@ const Rosma: React.FC = () => (
 					</div>
 					<div className='col-12'>
 						<a href='/'>ТОО "Астана Ком"</a>
-						<a href='/rosma'>РОСМА</a>
+						<a href='/catalog/rosma'>РОСМА</a>
 					</div>
 				</div>
 			</div>

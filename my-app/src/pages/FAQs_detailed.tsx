@@ -16,7 +16,7 @@ const FAQPage: React.FC = () => {
 						</div>
 						<div className='col-12'>
 							<a href='/'>ТОО "Астана Ком"</a>
-							<a href='/faqs'>FAQs</a>
+							<a href='/help/faqs'>FAQs</a>
 						</div>
 					</div>
 				</div>

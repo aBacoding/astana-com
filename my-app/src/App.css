@@ -1131,7 +1131,7 @@ a:focus {
 	color: #ffffff;
 }
 
-.hubungi a {
+.contacts a {
 	padding-right: 10px;
 }
 
@@ -1179,75 +1179,46 @@ a:focus {
 	margin-bottom: 10px;
 }
 
-.klien {
-	font-weight: bold;
-	font-size: 16px;
-	padding-left: 12px;
-	padding-right: 12px;
-}
-.item-klien li span {
-	padding-right: 10px;
-}
-.item-klien {
-	text-align: left;
-}
-
-.page-testimoni {
-	display: none;
-}
-.page-testimoni:nth-child(1),
-.page-testimoni:nth-child(2),
-.page-testimoni:nth-child(3) {
-	display: inline-block;
-}
-.page-testimoni {
-	padding-bottom: 20px;
-}
-
-.ketentuan {
+.conditions {
 	padding-top: 67px;
 	padding-left: 20px;
 }
-.ketentuan h4 {
+.conditions h4 {
 	font-size: 18px;
 }
-.ketentuan li {
+.conditions li {
 	font-size: 14px;
 }
-.syarat p {
+.terms p {
 	margin-top: -15px;
 	font-size: 15px;
 }
-.syarat p span {
+.terms p span {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	margin-left: -18px;
 }
 
-.perjanjian p {
+.agreements p {
 	margin-top: -20px;
 }
-.perjanjian p span {
+.agreements p span {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 16px;
 }
-.perjanjian ol {
+.agreements ol {
 	margin-top: -20px;
 	font-size: 15px;
 }
-.perjanjian ol p {
+.agreements ol p {
 	margin-left: -22px;
 	font-size: 15px;
 	margin-bottom: 7px;
 }
-.perjanjian li {
+.agreements li {
 	padding-bottom: 5px;
 	font-size: 15px;
-}
-.umum {
-	margin-top: 10px;
-	font-size: 14px;
 }
 
 .rincian-produk {
@@ -1280,9 +1251,11 @@ a:focus {
 	text-align: center;
 	font-weight: bold;
 }
+
 .tab-content {
 	text-align: left;
 }
+
 .tab-content ul a {
 	color: #000000;
 	font-weight: bold;
@@ -1300,16 +1273,16 @@ a:focus {
 	.item-delivery h5 {
 		font-size: 14px;
 	}
-	.ketentuan {
+	.conditions {
 		padding-top: 30px;
 	}
-	.ketentuan h4 {
+	.conditions h4 {
 		font-size: 22px;
 	}
-	.ketentuan li {
+	.conditions li {
 		font-size: 18px;
 	}
-	.syarat p span {
+	.terms p span {
 		margin-left: 0;
 	}
 }
@@ -1483,4 +1456,13 @@ a:focus {
 .single .table,
 .single .list-group {
 	margin-bottom: 30px;
+}
+
+/************************************************/
+/******* Active/Non-active Help Links CSS *******/
+/************************************************/
+
+.active {
+	font-weight: bold;
+	color: #4f84c4;
 }

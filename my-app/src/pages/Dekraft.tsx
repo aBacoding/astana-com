@@ -33,7 +33,7 @@ const Dekraft: React.FC = () => (
 					</div>
 					<div className='col-12'>
 						<a href='/'>ТОО "Астана Ком"</a>
-						<a href='/dekraft'>DEKraft</a>
+						<a href='/catalog/dekraft'>DEKraft</a>
 					</div>
 				</div>
 			</div>

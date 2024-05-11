@@ -1,7 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Header: React.FC = () => {
+	const location = useLocation()
+
+	// This function checks if the current location matches any of the paths specified.
+	const isActive = (path: string): boolean => {
+		return (
+			location.pathname === path || location.pathname.startsWith(path + '/')
+		)
+	}
+
+	// Determine the class based on whether the link should be active
+	const getActiveClass = (path: string): string => {
+		return isActive(path) ? 'active' : ''
+	}
+
 	return (
 		<div className='header'>
 			<div className='container-fluid'>
@@ -14,7 +28,7 @@ const Header: React.FC = () => {
 					>
 						<div className='brand'>
 							<Link to='/'>
-								<img src='img/logo/astanacomlogo.png' alt='Logo' />
+								<img src='../../img/logo/astanacomlogo.png' alt='Logo' />
 							</Link>
 						</div>
 					</div>
@@ -89,14 +103,19 @@ const Header: React.FC = () => {
 								id='navbarCollapse'
 							>
 								<div className='navbar-nav ml-auto'>
-									<Link to='/' className='nav-item nav-link active'>
+									<a
+										href='/'
+										className={`nav-item nav-link ${getActiveClass('/')}`}
+									>
 										Главная
-									</Link>
+									</a>
 									<div className='btn-group drop'>
 										<a
-											href='/'
+											href='/company'
 											title=''
-											className='dropdown-toggle nav-item nav-link'
+											className={`dropdown-toggle nav-item nav-link ${getActiveClass(
+												'/company'
+											)}`}
 											data-toggle='dropdown'
 											role='button'
 											aria-haspopup='true'
@@ -106,7 +125,12 @@ const Header: React.FC = () => {
 										</a>
 										<ul className='dropdown-menu'>
 											<li>
-												<a className='nav-item nav-link' href='/about'>
+												<a
+													className={`nav-item nav-link ${getActiveClass(
+														'/company/about'
+													)}`}
+													href='/company/about'
+												>
 													О нас
 												</a>
 											</li>
@@ -114,12 +138,22 @@ const Header: React.FC = () => {
 												<hr className='dropdown-divider' />
 											</li>
 											<li>
-												<a className='nav-item nav-link' href='/partners'>
+												<a
+													className={`nav-item nav-link ${getActiveClass(
+														'/company/partners'
+													)}`}
+													href='/company/partners'
+												>
 													Партнеры
 												</a>
 											</li>
 											<li>
-												<a className='nav-item nav-link' href='/payment'>
+												<a
+													className={`nav-item nav-link ${getActiveClass(
+														'/company/payment'
+													)}`}
+													href='/company/payment'
+												>
 													Оплата и доставка
 												</a>
 											</li>
@@ -127,9 +161,11 @@ const Header: React.FC = () => {
 									</div>
 									<div className='btn-group drop'>
 										<a
-											href='/'
+											href='/catalog'
 											title=''
-											className='dropdown-toggle nav-item nav-link'
+											className={`dropdown-toggle nav-item nav-link ${getActiveClass(
+												'/catalog'
+											)}`}
 											data-toggle='dropdown'
 											role='button'
 											aria-haspopup='true'
@@ -139,25 +175,45 @@ const Header: React.FC = () => {
 										</a>
 										<ul className='dropdown-menu'>
 											<li>
-												<a className='nav-item nav-link' href='/owen'>
+												<a
+													className={`nav-item nav-link ${getActiveClass(
+														'/catalog/owen'
+													)}`}
+													href='/catalog/owen'
+												>
 													ОВЕН
 												</a>
 											</li>
 											<li>
-												<a className='nav-item nav-link' href='/rosma'>
+												<hr className='dropdown-divider' />
+											</li>
+											<li>
+												<a
+													className={`nav-item nav-link ${getActiveClass(
+														'/catalog/rosma'
+													)}`}
+													href='/catalog/rosma'
+												>
 													РОСМА
 												</a>
 											</li>
 											<li>
 												<a
-													className='nav-item nav-link'
-													href='/schneider-electric'
+													className={`nav-item nav-link ${getActiveClass(
+														'/catalog/schneider-electric'
+													)}`}
+													href='/catalog/schneider-electric'
 												>
 													Schneider Electric
 												</a>
 											</li>
 											<li>
-												<a className='nav-item nav-link' href='/dekraft'>
+												<a
+													className={`nav-item nav-link ${getActiveClass(
+														'/catalog/dekraft'
+													)}`}
+													href='/catalog/dekraft'
+												>
 													DEKraft
 												</a>
 											</li>
@@ -165,9 +221,11 @@ const Header: React.FC = () => {
 									</div>
 									<div className='btn-group drop'>
 										<a
-											href='/'
+											href='/help'
 											title=''
-											className='dropdown-toggle nav-item nav-link'
+											className={`dropdown-toggle nav-item nav-link ${getActiveClass(
+												'/help'
+											)}`}
 											data-toggle='dropdown'
 											role='button'
 											aria-haspopup='true'
@@ -177,7 +235,12 @@ const Header: React.FC = () => {
 										</a>
 										<ul className='dropdown-menu'>
 											<li>
-												<a className='nav-item nav-link' href='/faqs'>
+												<a
+													className={`nav-item nav-link ${getActiveClass(
+														'/help/faqs'
+													)}`}
+													href='/help/faqs'
+												>
 													FAQs
 												</a>
 											</li>
@@ -185,21 +248,28 @@ const Header: React.FC = () => {
 												<hr className='dropdown-divider' />
 											</li>
 											<li>
-												<a className='nav-item nav-link' href='/services'>
+												<a
+													className={`nav-item nav-link ${getActiveClass(
+														'/help/services'
+													)}`}
+													href='/help/services'
+												>
 													Услуги
 												</a>
 											</li>
 											<li>
 												<a
-													className='nav-item nav-link'
-													href='./page/bantuan/syarat.html'
+													className={`nav-item nav-link ${getActiveClass(
+														'/help/terms'
+													)}`}
+													href='/help/terms'
 												>
 													Условия и положения
 												</a>
 											</li>
 										</ul>
 									</div>
-									<a href='./page/contact.html' className='nav-item nav-link'>
+									<a href='/contact' className='nav-item nav-link'>
 										Контакт
 									</a>
 									<a href='/' className='btn'>

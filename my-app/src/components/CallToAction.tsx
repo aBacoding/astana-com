@@ -33,7 +33,7 @@ const CallToAction: React.FC = () => {
 						data-aos-easing='ease-in-sine'
 						data-aos-duration='1000'
 					>
-						<a className='btn' href='./page/contact.html'>
+						<a className='btn' href='/contact'>
 							Контакт
 						</a>
 					</div>
@@ -44,7 +44,7 @@ const CallToAction: React.FC = () => {
 						data-aos-duration='1000'
 						data-aos-delay='500'
 					>
-						<a className='btn' href='/payment'>
+						<a className='btn' href='/company/payment'>
 							Сделка
 						</a>
 					</div>

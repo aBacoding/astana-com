@@ -151,7 +151,7 @@ const FAQs: React.FC = () => {
 						</div>
 						<a
 							className='btn'
-							href='/faqs'
+							href='/help/faqs'
 							data-aos='zoom-in'
 							data-aos-easing='ease-in-sine'
 							data-aos-duration='1000'

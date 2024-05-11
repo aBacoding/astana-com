@@ -16,7 +16,7 @@ const Partners: React.FC = () => {
 						</div>
 						<div className='col-12'>
 							<a href='/'>ТОО "Астана Ком"</a>
-							<a href='/partners'>Партнеры</a>
+							<a href='/company/partners'>Партнеры</a>
 						</div>
 					</div>
 				</div>
@@ -46,6 +46,32 @@ const Partners: React.FC = () => {
 					<div className='row align-items-center'>
 						<div
 							className='col-md-6'
+							data-aos='fade-left'
+							data-aos-offset='300'
+							data-aos-easing='ease-in-sine'
+							data-aos-duration='1000'
+						>
+							<div className='service-row-img'>
+								<h2 className='section-title'>РОСМА</h2>
+								<img src='../../img/partners/rosma.jpeg' alt='Partner' />
+								<p></p>
+								<p>
+									<a href='https://rosma.spb.ru/'>
+										<strong>ЗАО "РОСМА"</strong>
+									</a>{' '}
+									на сегодняшний день является одним из крупнейших отечественных
+									производителей контрольно-измерительных приборов, прочно входя
+									в число лидеров рынка в данной области. Компания была
+									образована в 1998 году в Санкт-Петербурге, как торговое
+									представительство «Куявской Фабрики Манометров» (KFM, Польша).
+									Полученные за годы сотрудничества с KFM знания позволили нашей
+									компании разработать и предложить клиентам собственную линейку
+									приборов.
+								</p>
+							</div>
+						</div>
+						<div
+							className='col-md-6'
 							data-aos='fade-right'
 							data-aos-offset='300'
 							data-aos-easing='ease-in-sine'
@@ -53,7 +79,7 @@ const Partners: React.FC = () => {
 						>
 							<div className='service-row-img'>
 								<h2 className='section-title'>ОВЕН</h2>
-								<img src='img/partners/owen.png' alt='Partner' />
+								<img src='../../img/partners/owen.png' alt='Partner' />
 								<p></p>
 								<p>
 									<a href='https://owen.ru/'>
@@ -77,34 +103,8 @@ const Partners: React.FC = () => {
 							data-aos-duration='1000'
 						>
 							<div className='service-row-img'>
-								<h2 className='section-title'>РОСМА</h2>
-								<img src='img/partners/rosma.jpeg' alt='Partner' />
-								<p></p>
-								<p>
-									<a href='https://rosma.spb.ru/'>
-										<strong>ЗАО "РОСМА"</strong>
-									</a>{' '}
-									на сегодняшний день является одним из крупнейших отечественных
-									производителей контрольно-измерительных приборов, прочно входя
-									в число лидеров рынка в данной области. Компания была
-									образована в 1998 году в Санкт-Петербурге, как торговое
-									представительство «Куявской Фабрики Манометров» (KFM, Польша).
-									Полученные за годы сотрудничества с KFM знания позволили нашей
-									компании разработать и предложить клиентам собственную линейку
-									приборов.
-								</p>
-							</div>
-						</div>
-						<div
-							className='col-md-6'
-							data-aos='fade-left'
-							data-aos-offset='300'
-							data-aos-easing='ease-in-sine'
-							data-aos-duration='1000'
-						>
-							<div className='service-row-img'>
 								<h2 className='section-title'>Schneider Electric</h2>
-								<img src='img/partners/schneider.jpeg' alt='Partner' />
+								<img src='../../img/partners/schneider.jpeg' alt='Partner' />
 								<p></p>
 								<p>
 									<a href='https://www.se.com/kz/ru/'>
@@ -131,7 +131,7 @@ const Partners: React.FC = () => {
 						>
 							<div className='service-row-img'>
 								<h2 className='section-title'>DEKraft</h2>
-								<img src='img/partners/dekraft.jpeg' alt='Partner' />
+								<img src='../../img/partners/dekraft.jpeg' alt='Partner' />
 								<p></p>
 								<p>
 									<a href='https://www.dek.ru/'>
