@@ -11,7 +11,11 @@ import CallToAction from './components/CallToAction'
 import Footer from './components/Footer'
 import Partners from './pages/Partners'
 import PaymentDelivery from './pages/PaymentDelivery'
+import Owen from './pages/Owen'
 import './App.css'
+import Rosma from './pages/Rosma'
+import Dekraft from './pages/Dekraft'
+import Schneider from './pages/Schneider'
 
 const App: React.FC = () => {
 	return (
@@ -35,6 +39,10 @@ const App: React.FC = () => {
 						<Route path='/about' element={<AboutUs />} />
 						<Route path='/partners' element={<Partners />} />
 						<Route path='/payment' element={<PaymentDelivery />} />
+						<Route path='/owen' element={<Owen />} />
+						<Route path='/rosma' element={<Rosma />} />
+						<Route path='/schneider-electric' element={<Schneider />} />
+						<Route path='/dekraft' element={<Dekraft />} />
 					</Routes>
 					<CallToAction />
 					<Footer />

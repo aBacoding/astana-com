@@ -38,7 +38,7 @@ const Header: React.FC = () => {
 							</div>
 							<div className='topbar-col'>
 								<a
-									href='mailto:inbox@a.com.kz?subject=Запрос на оборудование'
+									href='mailto:inbox@a.com.kz?subject=Запрос%20на%20оборудование'
 									target='_blank'
 									rel='noreferrer'
 								>
@@ -139,34 +139,25 @@ const Header: React.FC = () => {
 										</a>
 										<ul className='dropdown-menu'>
 											<li>
-												<a
-													className='nav-item nav-link'
-													href='./page/produk/kaligrafi.html'
-												>
+												<a className='nav-item nav-link' href='/owen'>
 													ОВЕН
 												</a>
 											</li>
 											<li>
-												<a
-													className='nav-item nav-link'
-													href='./page/produk/lukisan.html'
-												>
+												<a className='nav-item nav-link' href='/rosma'>
 													РОСМА
 												</a>
 											</li>
 											<li>
 												<a
 													className='nav-item nav-link'
-													href='./page/produk/tembakau.html'
+													href='/schneider-electric'
 												>
 													Schneider Electric
 												</a>
 											</li>
 											<li>
-												<a
-													className='nav-item nav-link'
-													href='./page/produk/kopi.html'
-												>
+												<a className='nav-item nav-link' href='/dekraft'>
 													DEKraft
 												</a>
 											</li>

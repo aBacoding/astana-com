@@ -135,7 +135,7 @@ const Partners: React.FC = () => {
 								<p></p>
 								<p>
 									<a href='https://www.dek.ru/'>
-										<strong>Dekraft</strong>
+										<strong>DEKraft</strong>
 									</a>{' '}
 									– бренд низковольтного оборудования, ориентированный на Россию
 									и страны СНГ c 2007 года. Продукция бренда применяется в

@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
 							</p>
 							<p>
 								<a
-									href='mailto:inbox@a.com.kz?subject=Запрос на оборудование'
+									href='mailto:inbox@a.com.kz?subject=Запрос%20на%20оборудование'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
@@ -60,10 +60,10 @@ const Footer: React.FC = () => {
 							<div className='col-md-6'>
 								<div className='footer-link'>
 									<h2>Каталог</h2>
-									<a href='./page/produk/kaligrafi.html'>ОВЕН</a>
-									<a href='./page/produk/lukisan.html'>РОСМА</a>
-									<a href='./page/produk/tembakau.html'>Schneider Electric</a>
-									<a href='./page/produk/kopi.html'>DEKraft</a>
+									<a href='/owen'>ОВЕН</a>
+									<a href='/rosma'>РОСМА</a>
+									<a href='/schneider-electric'>Schneider Electric</a>
+									<a href='/dekraft'>DEKraft</a>
 								</div>
 							</div>
 							<div className='col-md-6'>

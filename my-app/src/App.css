@@ -1264,10 +1264,10 @@ a:focus {
 	font-weight: bold;
 }
 
-.detail-produk {
+.detail-product {
 	margin-top: 40px;
 }
-.detail-produk h5 {
+.detail-product h5 {
 	text-align: center;
 	color: #000000;
 	font-weight: bold;
@@ -1291,14 +1291,11 @@ a:focus {
 }
 
 @media (max-width: 768px) {
-	.pembayaran {
+	.payment {
 		margin-left: 0;
 		margin-right: 0;
 	}
-	.pembayarans {
-		margin-top: 0;
-	}
-	.item-pengiriman h5 {
+	.item-delivery h5 {
 		font-size: 14px;
 	}
 	.ketentuan {
