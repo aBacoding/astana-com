@@ -110,7 +110,7 @@ const Footer: React.FC = () => {
 					</div>
 					<div className='col-md-6'>
 						<p>
-							&copy;
+							&copy; {''}
 							<a
 								href='https://astana.company'
 								target='_blank'
