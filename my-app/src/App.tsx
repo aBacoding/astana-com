@@ -21,6 +21,7 @@ import Services from './pages/Services'
 import Terms from './pages/Terms'
 import GeneralAgreements from './pages/GeneralAgreement'
 import PrivacyPolicy from './pages/PrivacyPolicy'
+import Contact from './pages/Contact'
 
 const App: React.FC = () => {
 	return (
@@ -56,6 +57,7 @@ const App: React.FC = () => {
 							element={<GeneralAgreements />}
 						/>
 						<Route path='/help/privacy-policy' element={<PrivacyPolicy />} />
+						<Route path='/contact' element={<Contact />} />
 					</Routes>
 					<CallToAction />
 					<Footer />

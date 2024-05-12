@@ -269,7 +269,12 @@ const Header: React.FC = () => {
 											</li>
 										</ul>
 									</div>
-									<a href='/contact' className='nav-item nav-link'>
+									<a
+										href='/contact'
+										className={`nav-item nav-link ${getActiveClass(
+											'/contact'
+										)}`}
+									>
 										Контакт
 									</a>
 									<a href='/' className='btn'>
