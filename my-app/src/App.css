@@ -637,7 +637,6 @@ a:focus {
 .service-row .service-row-img img {
 	max-width: 100%;
 	border-radius: 15px;
-	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 767.98px) {

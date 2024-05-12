@@ -22,6 +22,7 @@ import Terms from './pages/Terms'
 import GeneralAgreements from './pages/GeneralAgreement'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import Contact from './pages/Contact'
+import NotFoundPage from './pages/404'
 
 const App: React.FC = () => {
 	return (
@@ -58,6 +59,7 @@ const App: React.FC = () => {
 						/>
 						<Route path='/help/privacy-policy' element={<PrivacyPolicy />} />
 						<Route path='/contact' element={<Contact />} />
+						<Route path='*' element={<NotFoundPage />} />
 					</Routes>
 					<CallToAction />
 					<Footer />
