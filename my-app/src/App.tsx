@@ -34,6 +34,7 @@ import Tm_520p_10_0_2_5_mpa_glycerine from './pages/rosma/Tm_520p_10_0_2_5_mpa_g
 import Bt_51_211_0_160_c from './pages/rosma/Bt_51_211_0_160_c'
 import Iem3255 from './pages/schneider/Iem3255'
 import Iem3155 from './pages/schneider/Iem3155'
+import Ba_101 from './pages/dekraft/Ba_101'
 
 const App: React.FC = () => {
 	return (
@@ -124,6 +125,11 @@ const App: React.FC = () => {
 							path='/catalog/schneider-electric/iem3155'
 							// eslint-disable-next-line react/jsx-pascal-case
 							element={<Iem3155 />}
+						/>
+						<Route
+							path='/catalog/dekraft/ba-101'
+							// eslint-disable-next-line react/jsx-pascal-case
+							element={<Ba_101 />}
 						/>
 						<Route path='*' element={<NotFoundPage />} />
 					</Routes>

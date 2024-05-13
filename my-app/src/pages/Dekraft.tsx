@@ -14,7 +14,7 @@ const products: Product[] = [
 		imageUrl: '../../img/dekraft/ВА-101.jpg',
 		title: 'DEKraft Автоматический выключатель 3Р 40А х-ка C ВА-101 4,5кА',
 		price: '2 500 ₸',
-		description: 'kaligrafi/yasin.html',
+		description: '/catalog/dekraft/ba-101',
 	},
 ]
 
