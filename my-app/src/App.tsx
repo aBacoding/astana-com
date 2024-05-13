@@ -29,6 +29,9 @@ import Dts125m_50m_0_5_60_i_50 from './pages/owen/Dts125m_50m_0_5_60_i_50'
 import Sp315_r from './pages/owen/Sp315_r'
 import Mv110_224_8a from './pages/owen/Mv110_224_8a'
 import Gz_16_3_7_100 from './pages/owen/Gz_16_3_7_100'
+import Tm_510p_00_0_1_6_mpa from './pages/rosma/Tm_510p_00_0_1_6_mpa'
+import Tm_520p_10_0_2_5_mpa_glycerine from './pages/rosma/Tm_520p_10_0_2_5_mpa_glycerine'
+import Bt_51_211_0_160_c from './pages/rosma/Bt_51_211_0_160_c'
 
 const App: React.FC = () => {
 	return (
@@ -94,6 +97,21 @@ const App: React.FC = () => {
 							path='/catalog/owen/gz-16-3-7-100'
 							// eslint-disable-next-line react/jsx-pascal-case
 							element={<Gz_16_3_7_100 />}
+						/>
+						<Route
+							path='/catalog/rosma/tm-510p-00-0-1-6-mpa'
+							// eslint-disable-next-line react/jsx-pascal-case
+							element={<Tm_510p_00_0_1_6_mpa />}
+						/>
+						<Route
+							path='/catalog/rosma/tm-520p-10-0-2-5-mpa-glycerine'
+							// eslint-disable-next-line react/jsx-pascal-case
+							element={<Tm_520p_10_0_2_5_mpa_glycerine />}
+						/>
+						<Route
+							path='/catalog/rosma/bt-51-211-0-160-c'
+							// eslint-disable-next-line react/jsx-pascal-case
+							element={<Bt_51_211_0_160_c />}
 						/>
 						<Route path='*' element={<NotFoundPage />} />
 					</Routes>
