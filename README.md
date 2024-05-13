@@ -23,10 +23,15 @@
 
 ## How to run?
 
-To set up the repository and run the marketplace locally, run the below
+To set up the repository and run the website locally, run the below
 ```bash
 git clone https://github.com/aBacoding/astana-com
 cd my-app
 npm install
 npm start
+```
+## Design on Figma
+
+```bash
+https://www.figma.com/design/RtSVOjwyhwJVmPDE98SNqI/LLC-%22Astana-Com%22-Company-Profile?node-id=0%3A1&t=hCI4DMSLUUY8cd5q-1
 ```
