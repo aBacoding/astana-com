@@ -13,11 +13,11 @@
   - [Product](#product)
   - [FAQs](#faqs)
   - [Services](#services)
-  - [Terms and conditions](#terms)
+  - [Terms and conditions](#terms-and-conditions)
   - [General Agreements](#general-agreements)
   - [Privacy Policy](#privacy-policy)
   - [Contact](#contact)
-  - [404 Not Found](#404)
+  - [404 Not Found](#404-not-found)
 - [Developer](#developer)
 - [Contributing](#contributing)
 
