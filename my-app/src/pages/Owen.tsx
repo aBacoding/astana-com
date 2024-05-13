@@ -14,14 +14,14 @@ const products: Product[] = [
 		imageUrl: '../../img/owen/plk110-220-30-tl.webp',
 		title: 'Контроллер для телеметрии и диспетчеризации ПЛК110-220.30-ТЛ [М02]',
 		price: '287 000 ₸',
-		description: 'kaligrafi/yasin.html',
+		description: '/catalog/owen/plk110-220-30-tl',
 	},
 	{
 		id: 'pr200-24-5-1-0',
 		imageUrl: '../../img/owen/pr200-24-5-1-0.png',
 		title: 'Программируемое реле ПР200-24.5.1.0 [М01]',
 		price: '86 700 ₸',
-		description: 'kaligrafi/ayat.html',
+		description: '/catalog/owen/pr200-24-5-1-0',
 	},
 	{
 		id: 'dts125m-50m-0-5-60-i-15',
@@ -29,28 +29,28 @@ const products: Product[] = [
 		title:
 			'Термопреобразователь сопротивления (-40...+80 С) ДТС125М-50М.0,5.60.И [15]',
 		price: '43 400 ₸',
-		description: 'kaligrafi/kapal.html',
+		description: '/catalog/owen/dts125m-50m-0-5-60-i-15',
 	},
 	{
-		id: 'sp315',
+		id: 'sp315-r',
 		imageUrl: '../../img/owen/sp315.jpg',
 		title: 'Панель оператора графическая СП315-Р',
 		price: '737 280 ₸',
-		description: 'kaligrafi/quran.html',
+		description: '/catalog/owen/sp315-r',
 	},
 	{
 		id: 'mv110-224-8a',
 		imageUrl: '../../img/owen/mv110-224-8a.png',
 		title: 'Модуль аналогового ввода МВ110-224.8А [М01]',
 		price: '91 000 ₸',
-		description: 'kaligrafi/asmaul-husna.html',
+		description: '/catalog/owen/mv110-224-8a',
 	},
 	{
 		id: 'gz-16-3-7-100',
 		imageUrl: '../../img/owen/gz-16-3-7-100.png',
-		title: 'Гильза защитная ГЗ. 16.3.7.100',
+		title: 'Гильза защитная ГЗ.16.3.7.100',
 		price: '9 430 ₸',
-		description: 'kaligrafi/kuda.html',
+		description: '/catalog/owen/gz-16-3-7-100',
 	},
 ]
 

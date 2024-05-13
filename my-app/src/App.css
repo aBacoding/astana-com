@@ -1220,11 +1220,11 @@ a:focus {
 	font-size: 15px;
 }
 
-.rincian-produk {
+.details-prod {
 	font-weight: bold;
 	font-size: 24px;
 }
-.rincian {
+.det {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 	font-weight: bold;
@@ -1232,7 +1232,7 @@ a:focus {
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-.rinci {
+.detailed {
 	font-weight: bold;
 }
 

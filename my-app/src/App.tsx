@@ -23,6 +23,12 @@ import GeneralAgreements from './pages/GeneralAgreement'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import Contact from './pages/Contact'
 import NotFoundPage from './pages/404'
+import Plk110_30_tl from './pages/owen/Plk110_30_tl'
+import Pr200_24_5_1_0 from './pages/owen/Pr200_24_5_1_0'
+import Dts125m_50m_0_5_60_i_50 from './pages/owen/Dts125m_50m_0_5_60_i_50'
+import Sp315_r from './pages/owen/Sp315_r'
+import Mv110_224_8a from './pages/owen/Mv110_224_8a'
+import Gz_16_3_7_100 from './pages/owen/Gz_16_3_7_100'
 
 const App: React.FC = () => {
 	return (
@@ -59,6 +65,36 @@ const App: React.FC = () => {
 						/>
 						<Route path='/help/privacy-policy' element={<PrivacyPolicy />} />
 						<Route path='/contact' element={<Contact />} />
+						<Route
+							path='/catalog/owen/plk110-220-30-tl'
+							// eslint-disable-next-line react/jsx-pascal-case
+							element={<Plk110_30_tl />}
+						/>
+						<Route
+							path='/catalog/owen/pr200-24-5-1-0'
+							// eslint-disable-next-line react/jsx-pascal-case
+							element={<Pr200_24_5_1_0 />}
+						/>
+						<Route
+							path='/catalog/owen/dts125m-50m-0-5-60-i-15'
+							// eslint-disable-next-line react/jsx-pascal-case
+							element={<Dts125m_50m_0_5_60_i_50 />}
+						/>
+						<Route
+							path='/catalog/owen/sp315-r'
+							// eslint-disable-next-line react/jsx-pascal-case
+							element={<Sp315_r />}
+						/>
+						<Route
+							path='/catalog/owen/mv110-224-8a'
+							// eslint-disable-next-line react/jsx-pascal-case
+							element={<Mv110_224_8a />}
+						/>
+						<Route
+							path='/catalog/owen/gz-16-3-7-100'
+							// eslint-disable-next-line react/jsx-pascal-case
+							element={<Gz_16_3_7_100 />}
+						/>
 						<Route path='*' element={<NotFoundPage />} />
 					</Routes>
 					<CallToAction />
