@@ -15,15 +15,15 @@ const products: Product[] = [
 		title:
 			'Schneider Electric Счетчик 3-ф актив.-реакт. iEM3255, 4 тарифа, RS-485, кл. точн. 0.5S, транс. вкл.',
 		price: '169 200 ₸',
-		description: 'kaligrafi/yasin.html',
+		description: '/catalog/schneider-electric/iem3255',
 	},
 	{
-		id: 'TM-520P.10',
+		id: 'iem3155',
 		imageUrl: '../../img/schneider/iem3155.png',
 		title:
 			'Schneider Electric Счетчик 3-ф актив.-реакт. iEM3155, 4 тарифа, RS-485, кл. точн. 1, прям. вкл.',
 		price: '143 000 ₸',
-		description: 'kaligrafi/yasin.html',
+		description: '/catalog/schneider-electric/iem3155',
 	},
 ]
 

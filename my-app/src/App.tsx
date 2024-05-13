@@ -32,6 +32,8 @@ import Gz_16_3_7_100 from './pages/owen/Gz_16_3_7_100'
 import Tm_510p_00_0_1_6_mpa from './pages/rosma/Tm_510p_00_0_1_6_mpa'
 import Tm_520p_10_0_2_5_mpa_glycerine from './pages/rosma/Tm_520p_10_0_2_5_mpa_glycerine'
 import Bt_51_211_0_160_c from './pages/rosma/Bt_51_211_0_160_c'
+import Iem3255 from './pages/schneider/Iem3255'
+import Iem3155 from './pages/schneider/Iem3155'
 
 const App: React.FC = () => {
 	return (
@@ -112,6 +114,16 @@ const App: React.FC = () => {
 							path='/catalog/rosma/bt-51-211-0-160-c'
 							// eslint-disable-next-line react/jsx-pascal-case
 							element={<Bt_51_211_0_160_c />}
+						/>
+						<Route
+							path='/catalog/schneider-electric/iem3255'
+							// eslint-disable-next-line react/jsx-pascal-case
+							element={<Iem3255 />}
+						/>
+						<Route
+							path='/catalog/schneider-electric/iem3155'
+							// eslint-disable-next-line react/jsx-pascal-case
+							element={<Iem3155 />}
 						/>
 						<Route path='*' element={<NotFoundPage />} />
 					</Routes>
