@@ -277,7 +277,10 @@ const Header: React.FC = () => {
 									>
 										Контакт
 									</a>
-									<a href='/' className='btn'>
+									<a
+										href='https://github.com/aBacoding/aBaCoding/files/15300357/CV_Abdurakhim.pdf'
+										className='btn'
+									>
 										<i className='fa fa-download'></i>Download CV
 									</a>
 								</div>
