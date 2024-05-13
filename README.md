@@ -20,3 +20,13 @@
   - [404 Not Found](#404)
 - [Developer](#developer)
 - [Contributing](#contributing)
+
+## How to run?
+
+To set up the repository and run the marketplace locally, run the below
+```bash
+git clone https://github.com/aBacoding/astana-com
+cd my-app
+npm install
+npm start
+```
