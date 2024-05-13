@@ -6,7 +6,7 @@
 - [Design on Figma](#design-on-figma)
 - [Interfaces](#interfaces)
   - [Homepage](#homepage)
-  - [About Us](#aboutus)
+  - [About Us](#about-us)
   - [Partners](#partners)
   - [Payments and delivery](#payments-and-delivery)
   - [Catalog](#catalog)
